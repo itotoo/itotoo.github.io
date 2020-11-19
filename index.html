@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>Document</title>
-        <link rel="stylesheet" href="./index.css" />
-    </head>
+    <link href="css/index.min.css?7777fd67545185c83a02" rel="stylesheet"></head>
     <body>
-        <div class="page-menu">hello</div>
+        
+        <div id="menu" class="page-menu">
+            <ul>
+                <li data-menu="html">html</li>
+                <li>css</li>
+                <li>js</li>
+                <li>vue</li>
+                <li>react</li>
+                <li>http</li>
+                <li>算法与数据结构</li>
+            </ul>
+        </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-        <script>
-            axios
-                .get("./markdown/简介.md")
-                .then(function (response) {
-                    // handle success
-                    console.log(response);
-                })
-                .catch(function (error) {
-                    // handle error
-                    console.log(error);
-                })
-                .then(function () {
-                    // always executed
-                });
-        </script>
-    </body>
+        
+        <div id="list">
+            <ul>
+                <li>浏览器如何渲染页面？</li>
+                <li>浏览器如何渲染页面？</li>
+            </ul>
+            <div class="show-hide"></div>
+        </div>
+
+        
+        <div id="content">浏览器如何渲染页面？</div>
+    <script type="text/javascript" src="./common/common.min.js?7777fd67545185c83a02"></script><script type="text/javascript" src="js/index.min.js?7777fd67545185c83a02"></script></body>
 </html>
