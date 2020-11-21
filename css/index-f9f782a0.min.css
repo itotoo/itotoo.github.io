@@ -1,78 +1,3 @@
-* {
-  box-sizing: border-box; }
-
-html,
-body {
-  width: 100%;
-  height: 100%; }
-
-body {
-  display: block;
-  padding: 0;
-  margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #606c71; }
-
-a {
-  color: #1e6bb8;
-  text-decoration: none; }
-
-.page-header {
-  padding: 5rem 6rem;
-  color: #fff;
-  text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
-
-.page-menu {
-  display: block;
-  float: left;
-  width: 284px;
-  height: 100%;
-  color: #fff;
-  text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
-
-.page-menu ul {
-  margin: 0;
-  overflow: hidden; }
-
-.page-menu ul li {
-  margin: 20px 0;
-  cursor: pointer; }
-
-#list {
-  float: left; }
-
-#list ul {
-  padding: 5rem 6rem; }
-
-#list ul li {
-  margin: 20px 0;
-  cursor: pointer; }
-
-.active .show-hide {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.2); }
-
-#content {
-  position: fixed;
-  top: 0;
-  right: -1000px;
-  min-width: 1000px;
-  height: 100%;
-  padding: 5rem 6rem;
-  background: #fff;
-  box-shadow: 0 0 20px #a2a2a2; }
-
-.active {
-  right: 0px !important; }
 .markdown-body .octicon {
   display: inline-block;
   fill: currentColor;
@@ -874,5 +799,80 @@ a {
 .markdown-body .task-list-item input {
   margin: 0 0.2em 0.25em -1.6em;
   vertical-align: middle; }
+* {
+  box-sizing: border-box; }
 
-/*# sourceMappingURL=index.min.css.map*/
+html,
+body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  display: block;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #606c71; }
+
+a {
+  color: #1e6bb8;
+  text-decoration: none; }
+
+.page-header {
+  padding: 5rem 6rem;
+  color: #fff;
+  text-align: center;
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #159957); }
+
+.page-menu {
+  display: block;
+  float: left;
+  width: 284px;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #159957); }
+
+.page-menu ul {
+  margin: 0;
+  overflow: hidden; }
+
+.page-menu ul li {
+  margin: 20px 0;
+  cursor: pointer; }
+
+#list {
+  float: left; }
+
+#list ul {
+  padding: 5rem 6rem; }
+
+#list ul li {
+  margin: 20px 0;
+  cursor: pointer; }
+
+.active .show-hide {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); }
+
+#content {
+  position: fixed;
+  top: 0;
+  right: -1000px;
+  min-width: 1000px;
+  height: 100%;
+  padding: 5rem 6rem;
+  background: #fff;
+  box-shadow: 0 0 20px #a2a2a2; }
+
+.active {
+  right: 0px !important; }
+
+/*# sourceMappingURL=index-f9f782a0.min.css.map*/
