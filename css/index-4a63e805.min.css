@@ -820,13 +820,15 @@ a {
   color: #1e6bb8;
   text-decoration: none; }
 
+/*
 .page-header {
-  padding: 5rem 6rem;
-  color: #fff;
-  text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
-
+    padding: 5rem 6rem;
+    color: #fff;
+    text-align: center;
+    background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957);
+}
+*/
 .page-menu {
   display: block;
   float: left;
@@ -853,7 +855,8 @@ a {
 
 #list ul li {
   margin: 20px 0;
-  cursor: pointer; }
+  cursor: pointer;
+  list-style-type: korean-hanja-informal; }
 
 .active .show-hide {
   position: absolute;
@@ -870,9 +873,10 @@ a {
   height: 100%;
   padding: 5rem 6rem;
   background: #fff;
-  box-shadow: 0 0 20px #a2a2a2; }
+  box-shadow: 0 0 20px #a2a2a2;
+  overflow: auto; }
 
 .active {
   right: 0px !important; }
 
-/*# sourceMappingURL=index-5133a7d0.min.css.map*/
+/*# sourceMappingURL=index-4a63e805.min.css.map*/
