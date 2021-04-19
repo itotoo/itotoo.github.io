@@ -858,18 +858,12 @@ a {
   cursor: pointer;
   list-style-type: korean-hanja-informal; }
 
-.active .show-hide {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.2); }
-
-#content {
+.contentBox {
+  display: none;
   position: fixed;
   top: 0;
-  right: -1000px;
-  min-width: 1000px;
+  left: 0;
+  width: 100%;
   height: 100%;
   padding: 5rem 6rem;
   background: #fff;
@@ -877,6 +871,24 @@ a {
   overflow: auto; }
 
 .active {
-  right: 0px !important; }
+  display: block; }
 
-/*# sourceMappingURL=index-23b4d2d1.min.css.map*/
+.close {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10px 20px;
+  border: 1px solid #eee;
+  color: #119216;
+  z-index: 2;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  background: #eee; }
+
+.close:hover {
+  background: #eee;
+  border-bottom: 1px dashed; }
+
+/*# sourceMappingURL=index-f717611a.min.css.map*/
