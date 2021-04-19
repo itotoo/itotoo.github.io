@@ -878,17 +878,33 @@ a {
   position: fixed;
   top: 0;
   right: 0;
-  padding: 10px 20px;
-  border: 1px solid #eee;
+  line-height: 8px;
+  padding: 8px 20px;
   color: #119216;
-  z-index: 2;
-  cursor: pointer;
   width: 100%;
-  text-align: center;
-  background: #eee; }
+  background: #fff;
+  box-shadow: 0 0 10px #c3c3c3;
+  z-index: 2; }
 
-.close:hover {
-  background: #eee;
-  border-bottom: 1px dashed; }
+.close .closeBtn {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin: 0 6px;
+  border-radius: 100%;
+  background: #ff6262;
+  cursor: pointer; }
 
-/*# sourceMappingURL=index-f717611a.min.css.map*/
+.close .closeBtn:hover {
+  background: #f94f4f; }
+
+.close .closeBtn1 {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin: 0 6px;
+  border-radius: 100%;
+  background: #dadada;
+  cursor: pointer; }
+
+/*# sourceMappingURL=index-c8fa2e16.min.css.map*/
